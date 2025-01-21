@@ -2,8 +2,6 @@
 
 $curl = curl_init();
 
-//$cad = "http://78.142.242.198:8000/items/1?q=" . "Antonio";
-
 $cad = "Ruta_End_Point";
 curl_setopt_array($curl, array(
 	CURLOPT_URL => $cad,
