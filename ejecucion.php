@@ -4,7 +4,7 @@ $curl = curl_init();
 
 //$cad = "http://78.142.242.198:8000/items/1?q=" . "Antonio";
 
-$cad = "http://78.142.242.198:8000/generar_archivos_automaticamente";
+$cad = "Ruta_End_Point";
 curl_setopt_array($curl, array(
 	CURLOPT_URL => $cad,
 	CURLOPT_RETURNTRANSFER => true,
@@ -15,7 +15,7 @@ curl_setopt_array($curl, array(
 	CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
 	CURLOPT_CUSTOMREQUEST => "GET",
 	CURLOPT_HTTPHEADER => array(
-		"x-rapidapi-host: http://srv685771.hstgr.cloud",
+		"x-rapidapi-host: Direccion_Host",
 		"x-rapidapi-key: "
 	),
 ));
